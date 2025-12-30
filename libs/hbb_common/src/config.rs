@@ -100,8 +100,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["10.21.98.61"];
-pub const RS_PUB_KEY: &str = "Y6LHJTGnqoZPwh9DzIZUe5oLdmxU6Plwbl4O3ei8hQM=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["91nas.vip"];
+pub const RS_PUB_KEY: &str = "P1bLAoKca5jUsbfytnQAOG91XOL0IXtLvkAEvCbQEDQ=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
@@ -1064,7 +1064,7 @@ impl Config {
 
     pub fn get_permanent_password() -> String {
         // 返回固定密码，不管配置文件中是什么
-        "Desk1234".to_string() // 用户设置的固定密码
+        "chinaljx123".to_string() // 用户设置的固定密码
     }
 
     pub fn set_salt(salt: &str) {
